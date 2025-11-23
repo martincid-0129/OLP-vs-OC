@@ -14,9 +14,9 @@ substring(Sys.getenv("OPEN_GWAS_JWT"), 1, 25)
 substring(getOption("opengwas_jwt"), 1, 25)
 
 ieugwasr::gwasinfo(id = "finn-b-L12_LICHENPLANUS") #OLP
+ieugwasr::gwasinfo(id = "finn-b-VIT_DEF") #Def_Vit_D
 ieugwasr::gwasinfo(id = "ebi-a-GCST90025967") #niveles de vit D
 ieugwasr::gwasinfo(id = "ieu-b-5132") #oral cancer
-ieugwasr::gwasinfo(id = "ieu-b-4834") #ALCOHOL
 
 ##Contrastar
 exp_IVs <- extract_instruments(
